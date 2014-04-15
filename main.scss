@@ -1,0 +1,1092 @@
+
+
+body{
+	background: url("images/tile.png") repeat;
+	margin:0px;
+}
+
+.logo img{
+	margin: 15px 0px 0px 100px;
+	height:50%;
+	width:70%;
+}
+
+
+#nav{
+	position: fixed;
+	background-color: rgba(0,0,0,0.7);
+	width:100%;
+	border-bottom: 1px solid #333333;
+	box-shadow: 0px 2px 3px rgba(0,0,0, .4);
+	z-index: 1000;
+}
+
+ul.top-menu{
+	list-style: none;
+	float: right;
+	margin:0px;
+	& li{
+		float:left;
+		font-size:20px;
+		font-family: 'Lato', sans-serif;
+		font-weight: lighter;
+	}
+}
+
+.background img{
+	width:100%;
+	height:100%;
+	box-shadow: 0px 3px 5px rgba(0,0,0, .4);
+
+}
+
+#nav li a{
+	display: block;
+	padding: 23px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #eee;
+	border-right: 1px solid #1d1d1d;
+}
+
+.home{
+	border-left: 1px solid #1d1d1d;
+}
+
+.home,
+.about,
+.portfolio,
+.blog{
+	a:hover{
+		background:#8A8A85;
+		color:#eee;
+		-webkit-transition: all ease-in-out 0.5s;
+		-moz-transition: all ease-in-out 0.5s;
+		-ms-transition: all ease-in-out 0.5s;
+		-o-transition: all ease-in-out 0.5s;
+		transition: all ease-in-out 0.5s;
+	}
+}
+
+.one,
+.two{
+	float:center;
+	font-family: 'Lato', sans-serif;
+	& h1{
+		font-weight: 300;
+		font-size: 50px;
+		color: gray;
+		text-align: center;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	& p{
+		text-align: center;
+		font-weight: 300;
+		font-size: 1.25em;
+		color: gray;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+.three{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background-color: black;
+    font-size: 1em;
+}
+
+
+.button{
+	display: inline-block;
+	padding: 1em 1.618em;
+	color: white;
+	text-align: center;
+	margin-left: 40.9%;
+	margin-bottom: 3.8em;
+	border: none;
+	text-decoration: none;
+	font-size: 1em;
+	font-family:'Lato', sans-serif;
+	cursor: pointer;
+	overflow: visible;
+	width: auto;
+	line-height: 1.618em;
+	font-weight: bold;
+	text-transform: uppercase;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	white-space: nowrap;
+	background: #687C90;
+	-webkit-transition: all ease-in-out 0.2s;
+	-moz-transition: all ease-in-out 0.2s;
+	-ms-transition: all ease-in-out 0.2s;
+	-o-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+	-webkit-border-radius: 300px;
+	border-radius: 300px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	&:hover{
+		background: #4F6377;
+  		box-shadow: 0 0 0 3px #B4C8DC;
+  		-webkit-box-shadow: 0 0 0 3px #B4C8DC;
+	}
+}
+
+.four{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background-color: black;
+    font-size: 1em;
+}
+
+#counter{
+	color:gray;
+	font-size: 5em;
+	margin-bottom: 0px;
+	margin-top: .5em;
+}
+
+.hoursTitle{
+	padding-top: -20px;
+	margin-top: 10px;
+}
+
+.tenThousandHours{
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	padding-left: 8%;
+	& .title{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 50px;
+		color:black;
+	}
+}
+
+.outlierOne{
+	padding-bottom: 25px;
+}
+
+.outlierH1{
+	text-align: left;
+	font-size: 1.5em;
+	color:#284c7e;
+	font-weight: 300;
+}
+
+#homeSlider{
+	position:absolute;
+	overflow: visible;
+	z-index: 902;
+	font-family: 'Lato', sans-serif;
+	& h1{
+		font-weight: 200;
+		font-size: 2em;
+		color: white;
+		text-align: center;
+		height:300px;
+		width:600px;
+
+	}
+}
+
+.footer{
+	background: url('images/subtle_white_feathers.png');
+	box-shadow: 2px 0px 12px rgba(0,0,0, .4);
+	padding: 2.5%;
+
+
+}
+
+
+
+
+
+
+
+/* --------- Icomoon Font Setting and Styles --------*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?nxk2gn');
+	src:url('fonts/icomoon.eot?#iefixnxk2gn') format('embedded-opentype'),
+		url('fonts/icomoon.woff?nxk2gn') format('woff'),
+		url('fonts/icomoon.ttf?nxk2gn') format('truetype'),
+		url('fonts/icomoon.svg?nxk2gn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1.2;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+			font-smoothing: antialiased;	
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility; 
+}
+
+
+.icon-facebook:before {
+	content: "\e604";
+	font-size: 3em;
+	color: gray;
+}
+
+.icon-facebook:after {
+	content: "\e604";
+	font-size: 3em;
+	color: #3b5997;
+}
+.icon-instagram:before {
+	content: "\e605";
+	font-size: 3em;
+	color: gray;
+}
+.icon-instagram:after {
+	content: "\e605";
+	font-size: 3em;
+	color: peru;
+}
+.icon-twitter2:before {
+	content: "\e607";
+	font-size: 3em;
+	color: gray;	
+}
+.icon-twitter2:after {
+	content: "\e607";
+	font-size: 3em;
+	color: #41b7d8;
+}
+.icon-github:before {
+	content: "\e608";
+	font-size: 3em;
+	color: gray;
+}
+.icon-github:after {
+	content: "\e608";
+	font-size: 3em;
+	color: mediumPurple;
+}
+.icon-tumblr:before {
+	content: "\e609";
+	font-size: 3em;
+	color: gray;
+}
+.icon-tumblr:after {
+	content: "\e609";
+	font-size: 3em;
+	color: midnightBlue;
+}
+.icon-linkedin:before {
+	content: "\e60a";
+	font-size: 3em;
+	color: gray;
+}
+.icon-linkedin:after {
+	content: "\e60a";
+	font-size: 3em;
+	color: #0073b2;
+}
+.icon-googleplus:before {
+	content: "\e603";
+	font-size: 3em;
+	color: gray;	
+}
+.icon-googleplus:after {
+	content: "\e603";
+	font-size: 3em;
+	color: #d64937;
+}
+
+ul.socialMedia {
+  text-align: center; }
+  ul.socialMedia li {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    line-height: 1.2px;
+    background: #404040;
+    border-radius: 20%;
+    transition-duration: 0.7s; }
+    /* --- hover effect : background color change --- */ 
+    ul.socialMedia li:hover {
+      background: White;
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); }
+    ul.socialMedia li a {
+      display: block;
+      width: 100%;
+      height: 200%;
+      position: relative;
+      top: 0;
+      color: #33cc99;
+      transition: top 0.7s; }
+       /* --- hover effect : shift up --- */ 
+      ul.socialMedia li:hover a {
+        top: -120px; }
+      ul.socialMedia li a:after {
+        position: absolute;
+        width: inherit;
+        height: 0%;
+        left: 0;
+        bottom: 0;
+        line-height: 76px;
+        text-align: center; }
+
+        a:-webkit-any-link {
+			text-decoration: none;
+			cursor: auto;
+		}
+
+
+/* ------- End of Icomoon Font Styling ------- */
+
+.family{
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+  background: url("images/self_duck.jpg");
+  background-position: center;
+  background-size: 110%;
+  border-radius: 150px 150px 150px 150px;
+  box-shadow: 0 0 0 15px lightgrey;
+  line-height: 300px;
+  text-align: center;
+  float:left;
+  span{
+    display:none;
+
+  }
+  &:hover {
+	  background: rgba(83, 185, 203, 0.90);
+	  border-radius: 100%;
+	  box-shadow: 0 0 0 15px #477D86;
+	  position: relative;
+	  
+  }
+  &:hover span{
+  	line-height: normal;
+    display:inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding: 0px 20px 20px 20px;
+  	color:#fff;
+  	
+  }	
+}
+
+.famLeft{
+	margin: 12% 20px 8% 70px;
+}
+.famCenter{
+	margin: 12% 20px 8% 70px;
+}
+.famRight{
+	margin: 12% 20px 8% 70px;
+}
+
+
+/* portfolio */
+
+.ch-grid {
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color:#4e7495;
+    box-shadow: 0px 4px 5px rgba(0,0,0, .4);
+    
+}
+ 
+.ch-grid:after,
+.ch-item:before {
+    content: '';
+    display: table;
+}
+ 
+.ch-grid:after {
+    clear: both;
+}
+ 
+.ch-grid li {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 180px 20px 20px;
+}
+
+.ch-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+    box-shadow: 
+        inset 0 0 0 16px rgba(255,255,255,0.6),
+        0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.ch-img-1 { 
+    background-image: url("images/self_duck.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+ 
+.ch-img-2 { 
+    background-image: url("images/self_duck.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+ 
+.ch-img-3 { 
+    background-image: url("images/self_duck.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+
+.ch-info {
+    position: absolute;
+    background: rgba(149, 177, 202, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+
+.ch-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 0 30px;
+    padding: 45px 0 0 0;
+    height: 140px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow: 
+        0 0 1px #fff, 
+        0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+    color: #fff;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    opacity: 0;
+    transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info p a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+.ch-info p a:hover {
+    color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+    box-shadow: 
+        inset 0 0 0 1px rgba(255,255,255,0.1),
+        0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+    opacity: 1;
+}
+
+
+/****** Second Set of Circle Animations *******/
+/**********************************************/
+
+
+
+
+.ch2-grid {
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    /*background: url("images/tileCream.jpg") repeat;*/
+ 
+    
+}
+ 
+.ch2-grid:after,
+.ch2-item:before {
+    content: '';
+    display: table;
+}
+ 
+.ch2-grid:after {
+    clear: both;
+}
+ 
+.ch2-grid li {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 100px 20px 20px;
+}
+.ch2-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    cursor: default;
+}
+
+.ch2-info-wrap{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+    -webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+    top: 20px;
+    left: 20px;
+    background: #f9f9f9 url("images/tile.png") repeat;
+    box-shadow: 
+        0 0 0 20px rgba(255,255,255,0.2), 
+        inset 0 0 3px rgba(115,114, 23, 0.8);
+
+
+ 
+}
+.ch2-info{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.ch2-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-position: center center;
+    background-size: 128%; /* size of the inner circle background*/
+    -webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.ch2-info .ch2-info-back {
+    -webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+    background: gray;
+}
+
+.ch2-img-1 { 
+    background-image: url("images/self_duck.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+ 
+.ch2-img-2 { 
+    background-image: url("images/self_duck.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+ 
+.ch2-img-3 { 
+    background-image: url("images/self_duck.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+.ch2-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 0 15px;
+    padding: 40px 0 0 0;
+    height: 90px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow: 
+        0 0 1px #fff, 
+        0 1px 2px rgba(0,0,0,0.3);
+}
+ 
+.ch2-info p {
+    color: #fff;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+ 
+.ch2-info p a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+.ch2-info p a:hover {
+	color: #fff222;
+    color: rgba(255,242,34, 0.8);
+}
+
+.ch2-item:hover .ch2-info-wrap {
+    box-shadow: 
+        0 0 0 0 rgba(255,255,255,0.8), 
+        inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+ 
+.ch2-item:hover .ch2-info {
+    -webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}
+
+/****************************************/
+/********** Third Set of Circles ********/
+/****************************************/
+
+.ch3-grid {
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #f3d7ae;
+}
+ 
+.ch3-grid:after,
+.ch3-item:before {
+    content: '';
+    display: table;
+}
+ 
+.ch3-grid:after {
+    clear: both;
+}
+ 
+.ch3-grid li {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 100px 20px 60px 20px;
+}
+
+.ch3-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	-webkit-perspective: 900px;
+	-moz-perspective: 900px;
+	-o-perspective: 900px;
+	-ms-perspective: 900px;
+	perspective: 900px;
+}
+.ch3-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.ch3-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-o-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.ch3-info .ch3-info-front {
+	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+}
+
+.ch3-info .ch3-info-back {
+	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	background: #000;
+	opacity: 0;
+}
+
+.ch3-img-1 { 
+	background-image: url("images/self_duck.jpg");
+	background-position: center;
+    background-size: 110%;
+}
+
+.ch3-img-2 { 
+	background-image: url("images/self_duck.jpg");
+	background-position: center;
+    background-size: 110%;
+}
+
+.ch3-img-3 { 
+	background-image: url("images/self_duck.jpg");
+	background-position: center;
+    background-size: 110%;
+}
+
+.ch3-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 24px;
+	margin: 0 15px;
+	padding: 60px 0 0 0;
+	height: 110px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch3-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch3-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch3-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch3-item:hover .ch3-info-front {
+	-webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.ch3-item:hover .ch3-info-back {
+	-webkit-transform: rotate3d(1,0,0,0deg);
+	-moz-transform: rotate3d(1,0,0,0deg);
+	-o-transform: rotate3d(1,0,0,0deg);
+	-ms-transform: rotate3d(1,0,0,0deg);
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}
+
+/***********************************/
+/****** Fourth Circle Group ********/
+/***********************************/
+
+.ch4-grid {
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #98394f;
+}
+ 
+.ch4-grid:after,
+.ch4-item:before {
+    content: '';
+    display: table;
+}
+ 
+.ch4-grid:after {
+    clear: both;
+}
+ 
+.ch4-grid li {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 100px 20px 220px 20px;
+}
+
+.ch4-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.ch4-info-wrap, 
+.ch4-info{
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+}
+
+.ch4-info-wrap {
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url("images/tile.png");
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	
+}
+
+.ch4-info {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.ch4-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	background-size: 128%; /* size of the inner circle background*/
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+
+.ch4-info .ch4-info-front {
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	
+	z-index: 100;
+	box-shadow: 
+		inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+
+.ch4-info .ch4-info-back {
+	background: rgba(230,132,107,0);
+}
+
+.ch4-img-1 { 
+	background-image: url("images/self_duck.jpg");
+	background-position: center;
+    background-size: 110%;
+}
+
+.ch4-img-2 { 
+	background-image: url("images/self_duck.jpg");
+	background-position: center;
+    background-size: 110%;
+}
+
+.ch4-img-3 { 
+	background-image: url("images/self_duck.jpg");
+	background-position: center;
+    background-size: 110%;
+}
+
+.ch4-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin: 0 25px;
+	padding: 40px 0 0 0;
+	height: 90px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch4-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch4-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch4-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+
+.ch4-item:hover .ch4-info-front {
+	-webkit-transform: rotate3d(1,0,0,-180deg);
+	-moz-transform: rotate3d(1,0,0,-180deg);
+	-o-transform: rotate3d(1,0,0,-180deg);
+	-ms-transform: rotate3d(1,0,0,-180deg);
+	transform: rotate3d(1,0,0,-180deg);
+	
+	box-shadow: 
+		inset 0 0 5px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+.ch4-item:hover .ch4-info-back {
+	background: rgba(230,132,107,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

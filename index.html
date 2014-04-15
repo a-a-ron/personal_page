@@ -1,0 +1,130 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Aaron Stewart</title>
+	<link rel="stylesheet" type="text/css" href="main.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="grid.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="mixin.css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div id="nav">
+		<div class="grid_6">
+			<div class="logo">
+				<img src="images/logo3.png">
+			</div>
+		</div>
+
+		<div class="grid_5">
+			<ul class="top-menu">
+				<li class="home">
+					<a href="#">Home</a>
+			    </li>
+				<li class="about">
+					<a href="about.html">About</a>
+			    </li>
+				<li class="portfolio">
+					<a href="port.html">Portfolio</a>
+				</li>
+				<li class="blog">
+					<a href="#">Blog</a>
+				</li>
+			</ul>
+	    </div>
+	</div>
+	
+	
+	<div id="header_image">
+		<div class="background">
+			<div id="homeSlider">
+		    	<h1>"...If you work hard enough and assert yourself, and use your mind <br> and imagination, you can shape the world to your desires." <br><em> -- Malcom Gladwell, Outliers: The Story of Success</em></h1>
+		    	<h1>"...If you work hard enough and assert yourself, and use your mind <br> and imagination, you can shape the world to your desires." <br><em> -- Malcom Gladwell, Outliers: The Story of Success</em></h1>
+		    </div>
+			<img src="images/mtn_2.jpg">
+		
+			
+		</div>
+    </div>
+
+	<div class="container">    
+		<div class="grid_12">
+			<div class="one">
+				<h1 id="counter">0</h1>
+				<h1 class="hoursTitle">hours of practice</h1>
+		    </div>
+		</div>
+		<div class="grid_12">
+			<a class="button" title="Continue Reading" a href="10000.html">
+				Continue Reading 
+			</a>
+	    </div>
+	    <div class="grid_6 three">
+			<h1>The Strangest Secret</h1>
+			<p>The fit of the Robbins & Brooks Gold suit is newer, younger, and more Italian. To make it, we gave our list of needs to a suit designer who also designs $2500+ suits manufactured in Italy, so this suit looks like an expensive Italian suit, but is much less restricting and wears like Swedish Steel suits of yore. Please note that the pants are only a single pleat Italian cut, so they aren't as loose as the classic Robbins & Brooks suit.The fit of the Robbins & Brooks Gold suit is newer, younger, and more Italian. To make it, we gave our list of needs to a suit designer who also designs $2500+ suits manufactured in Italy, so this suit looks like an expensive Italian suit, but is much less restricting and wears like Swedish Steel suits of yore. Please note that the pants are only a single pleat Italian cut, so they aren't as loose as the classic Robbins & Brooks suit.The fit of the Robbins & Brooks Gold suit is newer, younger, and more Italian. To make it, we gave our list of needs to a suit designer who also designs $2500+ suits manufactured in Italy, so this suit looks like an expensive Italian suit, but is much less restricting and wears like Swedish Steel suits of yore. Please note that the pants are only a single pleat Italian cut, so they aren't as loose as the classic Robbins & Brooks suit.<p>
+	    </div>
+
+	    <div class="grid_5 four">
+	    	<div>
+		    	<h1>Chart Animation</h1>
+		    	<h2>The next slide in the animation</h2>
+	    	</div>
+	    </div>
+
+	    <div class="grid_12 ">
+	    	<div class="footer">
+	    		<ul class="socialMedia">
+				  <li><a href="#" aria-hidden="true" class="icon-github"></a></li>
+				  <li><a href="#" aria-hidden="true" class="icon-twitter2"></a></li>
+				  <li><a href="https://www.facebook.com/aaron.stewart.370" aria-hidden="true" class="icon-facebook"></a></li>
+				  <li><a href="#" aria-hidden="true" class="icon-linkedin"></a></li>
+				  <li><a href="#" aria-hidden="true" class="icon-googleplus"></a></li>
+				  <li><a href="#" aria-hidden="true" class="icon-tumblr"></a></li>
+				  <li><a href="http://instagram.com/aaronstewart" aria-hidden="true" class="icon-instagram"></a></li>
+				</ul>
+	    	</div>
+	    </div>
+	
+
+	</div>
+
+
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.js"></script>
+	<script type="text/javascript">
+		//The hompage number counter using the animate method
+		$({numberCount: $('#counter').text.()}).animate({numberCount: 1000}, 
+				{
+				  duration: 125,
+				  step: function() {
+				    $('#counter').text(Math.floor(this.numberCount));
+				  },
+				  complete: function() {
+				    $('#counter').text("10,000");
+				  }
+				});
+	</script>
+
+	<script type="text/javascript">
+		//Adds behavior to the homeSlider by calling the .cycle method
+		$(function(){
+			$('#homeSlider').cycle({
+		    		fx: 'scrollHorz', 
+		    		speed: 2000,
+		    		timeout: 10000,
+		    		pause: 1
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		//Moves the slider element around on the page.
+		var slider = document.getElementById('homeSlider');
+		slider.style.left = '45%';
+		slider.style.top = '55%';
+	</script>
+	
+</body>

@@ -1,0 +1,4 @@
+@mixin icomoon_before{
+	font-size: 3em;
+	color: gray;
+}
